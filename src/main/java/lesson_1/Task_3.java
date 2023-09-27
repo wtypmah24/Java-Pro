@@ -1,5 +1,6 @@
 package lesson_1;
 
+import java.time.Month;
 import java.util.Scanner;
 
 public class Task_3 {
@@ -17,10 +18,15 @@ public class Task_3 {
             numMonth = scanner.nextByte();
         } while (numMonth < 1 || numMonth > 12);
 
-        for (java.time.Month month : )
+        for (int i = 0; i < numMonth; i++){
+            System.out.println(Month.values()[i]);
+        }
+        System.out.println("---------------------------------");
+        for (Month month : Month.values()){
+            if (month.ordinal() != numMonth){
+                System.out.println(month);
+            }
+        }
 
     }
-
-
-
 }
