@@ -3,7 +3,7 @@ package lesson_1;
 import java.time.Month;
 import java.util.Scanner;
 
-public class Task_3 {
+public class MonthListing {
 //    Пользователь вводит порядковый номер месяца. Если введён неправильный номер, повторите запрос ввода номера месяца (do-while).
 //    Используя enum Month из пакета java.time, выведите в консоль имена месяцев от January до месяца,
 //    введённого пользователем включительно (for).
@@ -18,12 +18,12 @@ public class Task_3 {
             numMonth = scanner.nextByte();
         } while (numMonth < 1 || numMonth > 12);
 
-        for (int i = 0; i < numMonth; i++){
+        for (int i = 0; i < numMonth; i++) {
             System.out.println(Month.values()[i]);
         }
         System.out.println("---------------------------------");
-        for (Month month : Month.values()){
-            if (month.ordinal() != numMonth){
+        for (Month month : Month.values()) {
+            if (month.ordinal() + 1 != numMonth) {
                 System.out.println(month);
             }
         }
