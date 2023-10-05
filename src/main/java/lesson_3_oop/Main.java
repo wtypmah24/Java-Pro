@@ -1,6 +1,6 @@
-package lessone_3_oop;
+package lesson_3_oop;
 
-import lessone_3_oop.lamps.Lamp;
+import lesson_3_oop.lamps.Lamp;
 
 public class Main {
     public static void main(String[] args) {

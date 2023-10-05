@@ -1,4 +1,4 @@
-package lessone_3_oop.lamps;
+package lesson_3_oop.lamps;
 
 public enum LampSize {
     E14,
