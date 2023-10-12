@@ -1,4 +1,4 @@
-package lessont_5_polymorphism.musicStyle.music;
+package lesson_5_polymorphism.musicStyle.music;
 /* Допишите программу по выбору стиля музыки:
     Перенесите информацию о стиле в поле description.
     Добавьте поле rusName, в котором будет храниться название стиля на русском языке.

@@ -1,6 +1,6 @@
-package lessont_5_polymorphism.musicStyle;
+package lesson_5_polymorphism.musicStyle;
 
-import lessont_5_polymorphism.musicStyle.music.Style;
+import lesson_5_polymorphism.musicStyle.music.Style;
 
 import java.util.Arrays;
 import java.util.Locale;
