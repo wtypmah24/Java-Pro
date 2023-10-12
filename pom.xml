@@ -14,36 +14,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
-            <groupId>user.java.time</groupId>
-            <artifactId>user.java.time</artifactId>
-            <version>2020.267.10158</version>
-        </dependency>
-        <dependency>
-            <groupId>cljc.java-time</groupId>
-            <artifactId>cljc.java-time</artifactId>
-            <version>0.1.18</version>
-        </dependency>
-
-        <dependency>
-            <groupId>user.java.time</groupId>
-            <artifactId>user.java.time</artifactId>
-            <version>2020.267.10158</version>
-        </dependency>
-        <dependency>
-            <groupId>user.java.time</groupId>
-            <artifactId>user.java.time</artifactId>
-            <version>2020.267.10158</version>
-        </dependency>
-        <dependency>
-            <groupId>user.java.time</groupId>
-            <artifactId>user.java.time</artifactId>
-            <version>2020.267.10158</version>
-        </dependency>
-        <dependency>
-            <groupId>user.java.time</groupId>
-            <artifactId>user.java.time</artifactId>
-            <version>2020.267.10158</version>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 
