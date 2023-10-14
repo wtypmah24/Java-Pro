@@ -1,4 +1,4 @@
-package lesson_6_collection_list.task_3;
+package lesson_6_collection_list.task_3_practise;
 
 import java.util.ArrayList;
 import java.util.List;
