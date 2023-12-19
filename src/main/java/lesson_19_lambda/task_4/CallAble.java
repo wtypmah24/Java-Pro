@@ -44,7 +44,7 @@ public class CallAble {
         int result = 0;
         try {
 
-            result =  operation.call();
+            result = operation.call();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
